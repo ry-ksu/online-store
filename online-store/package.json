@@ -1,0 +1,45 @@
+{
+  "name": "ry-ksu-jsfe2022q1",
+  "version": "1.0.0",
+  "description": "online-store",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "webpack serve --open --config ./webpack.config.js --env mode=dev",
+    "build": "webpack --config ./webpack.config.js --env mode=prod",
+    "lint": "eslint . --ext .ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rolling-scopes-school/ry-ksu-JSFE2022Q1.git"
+  },
+  "keywords": [
+    "online",
+    "shop"
+  ],
+  "author": "ry-ksu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rolling-scopes-school/ry-ksu-JSFE2022Q1/issues"
+  },
+  "homepage": "https://github.com/rolling-scopes-school/ry-ksu-JSFE2022Q1#readme",
+  "devDependencies": {
+    "@types/jest": "^28.1.6",
+    "@typescript-eslint/eslint-plugin": "^5.30.6",
+    "@typescript-eslint/parser": "^5.30.6",
+    "clean-webpack-plugin": "^4.0.0",
+    "copy-webpack-plugin": "^7.0.0",
+    "css-loader": "^6.7.1",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.5.0",
+    "nouislider": "^15.6.0",
+    "style-loader": "^3.3.1",
+    "ts-jest": "^28.0.7",
+    "ts-loader": "^9.3.1",
+    "typescript": "^4.7.4",
+    "webpack": "^5.37.1",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.2",
+    "webpack-merge": "^5.7.3"
+  }
+}

@@ -1,0 +1,34 @@
+input[type='checkbox'] {
+  display: none;
+}
+
+label[checked='true'] {
+  color: #afd275;
+}
+
+.category__items {
+  display: flex;
+  gap: 10px;
+}
+
+h3 {
+  margin: 15px 0 0;
+}
+
+h2 {
+  color: #598c08;
+  font-size: 22px;
+  margin-top: 20px;
+}
+
+.range {
+  width: 290px;
+}
+
+.noUi-connect {
+  background: #c2cad0;
+}
+
+.noUi-target {
+  margin: 40px 0 0px 40px;
+}

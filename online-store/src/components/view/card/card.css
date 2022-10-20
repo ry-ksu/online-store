@@ -1,0 +1,129 @@
+.cards {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.card__item {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 5px;
+  width: 310px;
+  background: #ffffff;
+  border: 2px solid #bc986a;
+  border-radius: 5%;
+  font-size: 14px;
+}
+
+.card__img {
+  height: 200px;
+  width: 150px;
+  background-size: cover !important;
+  border-radius: 5%;
+}
+
+.card__info {
+  width: 140px;
+}
+
+.card__info p:first-child {
+  font-size: 16px;
+  margin: 7px 0;
+  text-align: center;
+}
+
+.card__btn {
+  width: 200px;
+  height: 25px;
+  margin: -5px auto 5px;
+}
+
+.card__item[checked='true'] .card__btn {
+  background: #afd275;
+}
+
+.card__item[checked='false'] .card__btn {
+  background: #e7717d;
+}
+
+.warning {
+  padding-top: 70px;
+  margin-top: 20px;
+  height: 100px;
+  width: 400px;
+  background-color: #ffffff;
+  border: 2px solid #bc986a;
+  border-radius: 5%;
+  font-size: 20px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.card__img_dress1 {
+  background-image: url('../../../assets/card/dress1.png');
+}
+.card__img_dress2 {
+  background: url('../../../assets/card/dress2.png');
+}
+.card__img_dress3 {
+  background: url('../../../assets/card/dress3.png');
+}
+.card__img_dress4 {
+  background: url('../../../assets/card/dress4.png');
+}
+.card__img_dress5 {
+  background: url('../../../assets/card/dress5.png');
+}
+.card__img_dress6 {
+  background: url('../../../assets/card/dress6.png');
+}
+.card__img_cardigan1 {
+  background: url('../../../assets/card/cardigan1.png');
+}
+.card__img_cardigan2 {
+  background: url('../../../assets/card/cardigan2.png');
+}
+.card__img_cardigan3 {
+  background: url('../../../assets/card/cardigan3.png');
+}
+.card__img_cardigan4 {
+  background: url('../../../assets/card/cardigan4.png');
+}
+.card__img_cardigan5 {
+  background: url('../../../assets/card/cardigan5.png');
+}
+.card__img_shirt1 {
+  background: url('../../../assets/card/shirt1.png');
+}
+.card__img_shirt2 {
+  background: url('../../../assets/card/shirt2.png');
+}
+.card__img_shirt3 {
+  background: url('../../../assets/card/shirt3.png');
+}
+.card__img_shirt4 {
+  background: url('../../../assets/card/shirt4.png');
+}
+.card__img_shirt5 {
+  background: url('../../../assets/card/shirt5.png');
+}
+.card__img_shirt6 {
+  background: url('../../../assets/card/shirt6.png');
+}
+.card__img_suit1 {
+  background: url('../../../assets/card/suit1.png');
+}
+.card__img_suit2 {
+  background: url('../../../assets/card/suit2.png');
+}
+.card__img_suit3 {
+  background: url('../../../assets/card/suit3.png');
+}
+.card__img_suit4 {
+  background: url('../../../assets/card/suit4.png');
+}
+.card__img_suit5 {
+  background: url('../../../assets/card/suit5.png');
+}

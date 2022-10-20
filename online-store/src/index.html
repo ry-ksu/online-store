@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Online store</title>
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="title">Online store</h1>
+      <form class="search-box">
+        <input
+          autofocus
+          autocomplete="off"
+          class="search-box__field"
+          type="search"
+          placeholder="Введите запрос..."
+        />
+        <button class="search-box__btn" type="submit">Поиск</button>
+      </form>
+      <div class="shopping-bag">
+        <p class="shopping-bag__count"></p>
+      </div>
+    </header>
+    <aside class="sidebar">
+      <h2>Фильтры по значению</h2>
+      <div class="categories">
+        <!-- add template  -->
+      </div>
+      <h2>Фильтры по диапазону</h2>
+      <div class="range">
+        <h3>Количество</h3>
+        <div id="quantitySlider"></div>
+        <h3>Цена</h3>
+        <div id="priceSlider"></div>
+      </div>
+    </aside>
+    <main>
+      <section class="additional-functionality">
+        <select class="sorting">
+          <option class="sorting__item sorting__item_1">Без сортировки</option>
+          <option class="sorting__item sorting__item_2">Сортировать по имени, от А до Я</option>
+          <option class="sorting__item sorting__item_3">Сортировать по имени, от Я до А</option>
+          <option class="sorting__item sorting__item_4">
+            Сортировать по цене, по возрастанию
+          </option>
+          <option class="sorting__item sorting__item_5">
+            Сортировать по цене, по убыванию
+          </option>
+        </select>
+        <label class="popular">
+          <input class="popular__checkbox" type="checkbox" /> Популярные
+        </label>
+        <button class="filter-reset">Сбросить фильтры</button>
+        <button class="ls-reset">Удалить local storage</button>
+      </section>
+      <section class="cards">
+        <!-- add template  -->
+      </section>
+    </main>
+    <footer>
+      <a href="https://rs.school/js/">
+        <div class="rs-logo"></div>
+      </a>
+      <a class="github-link" href="https://github.com/ry-ksu">
+        <div class="githab">
+          <div class="github-logo"></div>
+          <p>2022, ry-ksu</p>
+        </div>
+      </a>
+    </footer>
+
+    <template class="card__template">
+      <div class="card__item">
+        <div class="card__img"></div>
+        <div class="card__info"></div>
+        <button class="card__btn">В корзину</button>
+      </div>
+    </template>
+
+    <template class="category__template">
+      <div class="category__item">
+        <h3 class="category__title"></h3>
+        <div class="category__items"></div>
+      </div>
+    </template>
+
+    <!-- <template class="range__template">
+      <div class="range__item">
+        <h3 class="range__title"></h3>
+        <div class="range__slider"></div>
+      </div>
+    </template> -->
+  </body>
+</html>
